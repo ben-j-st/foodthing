@@ -1,0 +1,23 @@
+{
+  "name": "foodthing",
+  "version": "1.0.0",
+  "description": "hw13 : Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ben-j-st/foodthing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ben-j-st/foodthing/issues"
+  },
+  "homepage": "https://github.com/ben-j-st/foodthing#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
