@@ -7,9 +7,15 @@
 
 An application using mysql, nodejs, handlebars and heroku to give you a website that allows you to enter the names of burgers you want to be displayed on the screen waiting for you to devour them, once the devour button has been pressed its status is updated in the database and the burger is now moved to the devoured list, waiting for you to order is again.
 
+## Links
+
+<a href="https://vast-ocean-16398.herokuapp.com/">Link to Deployed Website on Heroku</a>
+<a href="https://ben-j-st.github.io/updated-portfolio/">Link to Portfolio</a>
+
 ## Table of Contents
 
 * [Description](#Description)
+* [Links] (#Links)
 * [Installation](#Installation)
 * [Usage](#Usage)
 * [Licence](#Licence)
