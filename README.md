@@ -10,12 +10,13 @@ An application using mysql, nodejs, handlebars and heroku to give you a website 
 ## Links
 
 <a href="https://vast-ocean-16398.herokuapp.com/">Link to Deployed Website on Heroku</a>
+<br>
 <a href="https://ben-j-st.github.io/updated-portfolio/">Link to Portfolio</a>
 
 ## Table of Contents
 
 * [Description](#Description)
-* [Links] (#Links)
+* [Links](#Links)
 * [Installation](#Installation)
 * [Usage](#Usage)
 * [Licence](#Licence)
