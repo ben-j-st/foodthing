@@ -1,0 +1,50 @@
+{{!-- creating a row and column to occupied a row above the burgers and take up the whole width --}}
+<header>
+  <h1>Welcome to Eat-Da-Burger, Can we Take Your Order <i class="fas fa-hamburger"></i></h1>
+</header>
+
+<section class="row justify-content-center">
+  <section class="col-sm-4">
+
+    <h2>Add a Burger</h2>
+    <form class="create-form">
+
+      <div class="form-group">
+        <label for="bn">Burger Name:</label>
+        <input type="text" id="bn" name="burger_name">
+        <button class="btn btn-outline-light" type="submit">Add Burger</button>
+      </div>
+
+    </form>
+
+  </section>
+</section>
+
+{{!-- separates into rows so they are on the same line --}}
+<section class="row justify-content-around">
+  {{!-- one column for burgers that haven't been eaten --}}
+  <section class="col-sm-5">
+
+    <h2>Ordered Burgers!</h2>
+
+    <ul>
+      {{#each burgers}}
+        {{#unless devoured}}
+          {{> burger/burger-block devoured=true}}
+        {{/unless}}
+      {{/each}}
+    </ul>
+  </section>
+  {{!-- one column for burgers that have been eaten --}}
+  <section class="col-sm-5">
+  <h2>Devoured Burgers!</h2>
+
+  <ul>
+    {{#each burgers}}
+      {{#if devoured}}
+        {{> burger/burger-block devoured=false}}
+      {{/if}}
+    {{/each}}
+  </ul>
+  </section>
+</section>
